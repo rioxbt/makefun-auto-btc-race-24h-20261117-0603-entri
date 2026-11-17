@@ -52,7 +52,8 @@ a dropped entry is simply retried on the next bar.
 ## What it measured
 
 Graded locally with the kit's own CLI on the published dev window (the exactly reproducible command
-above; `result_sha256` `0cafa5f4c817b5327819f7de97b5cc04d4cab6ff2a11bf0a77929c0f172ad4b6`):
+above; `result_sha256` depends on the whole snapshot and so changes with every commit, which is why
+only the action log's hash is quoted below):
 
 | | |
 |---|---|
